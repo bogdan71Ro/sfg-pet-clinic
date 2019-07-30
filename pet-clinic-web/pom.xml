@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.uranussoftware</groupId>
   <artifactId>pet-clinic-web</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3</version>
   <packaging>jar</packaging>
   <name>pet-clinic-web</name>
   <description>Web Module</description>
@@ -11,7 +11,7 @@
     <dependency>
         <groupId>org.uranussoftware</groupId>
 		<artifactId>pet-clinic-data</artifactId>
-		<version>0.0.3-SNAPSHOT</version>
+		<version>0.0.3</version>
     </dependency>
   	<dependency>
 		<groupId>org.springframework.boot</groupId>

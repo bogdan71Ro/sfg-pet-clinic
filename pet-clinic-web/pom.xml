@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.uranussoftware</groupId>
   <artifactId>pet-clinic-web</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>pet-clinic-web</name>
   <description>Web Module</description>
@@ -11,7 +11,7 @@
     <dependency>
         <groupId>org.uranussoftware</groupId>
 		<artifactId>pet-clinic-data</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.3-SNAPSHOT</version>
     </dependency>
   	<dependency>
 		<groupId>org.springframework.boot</groupId>
@@ -43,4 +43,17 @@
 	</dependency>
 	
   </dependencies>
+  
+     <build>
+        <plugins>
+           <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+        </plugins>
+     </build>
 </project>
